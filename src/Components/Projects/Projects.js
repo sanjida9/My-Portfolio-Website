@@ -1,185 +1,137 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import assi8 from "../../img/ASS-8.jpg";
+import assi9 from "../../img/ASS-9.jpg";
+import assi10 from "../../img/ASS-10.jpg";
+import assi11 from "../../img/ASS-11.jpg";
+import assi12 from "../../img/ASS-12.jpg";
 
 import "./Projects.css";
 
 const Projects = () => {
   return (
     <div>
-      <section className="body-des">
-        <div class="container">
-          <div class="card">
-            <div class="content">
-              <div class="imgBx">
-                <img
-                  alt=""
-                  src="https://image.flaticon.com/icons/png/256/4213/4213732.png"
-                />
-              </div>
-              <div class="contentBx">
-                <h3>
-                  Watchful Wrist
-                  <br />
-                  <span>Happy Birthday</span>
-                </h3>
-              </div>
-            </div>
-            <ul class="sci">
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-          <div class="card">
-            <div class="content">
-              <div class="imgBx">
-                <img
-                  alt=""
-                  src="https://image.flaticon.com/icons/png/256/4213/4213736.png"
-                />
-              </div>
-              <div class="contentBx">
-                <h3>
-                  World Tours
-                  <br />
-                  <span>Happy Birthday</span>
-                </h3>
-              </div>
-            </div>
-            <ul class="sci">
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-          <div class="card">
-            <div class="content">
-              <div class="imgBx">
-                <img
-                  alt=""
-                  src="https://image.flaticon.com/icons/png/256/4213/4213641.png"
-                />
-              </div>
-              <div class="contentBx">
-                <h3>
-                  Optic Care
-                  <br />
-                  <span>Happy Birthday</span>
-                </h3>
-              </div>
-            </div>
-            <ul class="sci">
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-          <div class="card">
-            <div class="content">
-              <div class="imgBx">
-                <img
-                  alt=""
-                  src="https://image.flaticon.com/icons/png/256/4213/4213641.png"
-                />
-              </div>
-              <div class="contentBx">
-                <h3>
-                  Optic Care
-                  <br />
-                  <span>Happy Birthday</span>
-                </h3>
-              </div>
-            </div>
-            <ul class="sci">
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-          <div class="card">
-            <div class="content">
-              <div class="imgBx">
-                <img
-                  alt=""
-                  src="https://image.flaticon.com/icons/png/256/4213/4213641.png"
-                />
-              </div>
-              <div class="contentBx">
-                <h3>
-                  Optic Care
-                  <br />
-                  <span>Happy Birthday</span>
-                </h3>
-              </div>
-            </div>
-            <ul class="sci">
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="">
-                  <div className="btn btn-primary">abc</div>
-                </NavLink>
-              </li>
-            </ul>
-          </div>
+      <h1 className="fw-bold text-primary p-5">My Projects</h1>
+      <div class="card mb-3 container p-5">
+        <img
+          className=" w-50 mx-auto img-fluid"
+          src={assi12}
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-primary">Watchful Wrist</h5>
+          <p class="card-text ">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.This is a
+            wider card with supporting text below as a natural lead-in to
+            additional content. This content is a little bit longer.
+          </p>
+          <h4 className="fw-bold text-primary mt-2">Technologies:</h4>
+          <button type="button" class="btn btn-outline-dark btn-sm m-1">
+            React.js
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-sm m-1">
+            Axios
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-sm m-1">
+            MongoDB
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-sm m-1">
+            Node.js
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-sm m-1">
+            Bootstrap5
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-sm m-1">
+            Firebase Authentication
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-sm m-1">
+            Private Route
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-sm m-1">
+            Heroku
+          </button>
+          <p class="card-text">
+            <NavLink to="/details1">
+              <div className="btn btn-primary mt-2">View Details</div>
+            </NavLink>
+          </p>
         </div>
-      </section>
+      </div>
+      <div class="card mb-3 container p-5">
+        <img
+          className="p-3 w-50 mx-auto img-fluid"
+          src={assi11}
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-primary">World Tours</h5>
+          <p class="card-text ">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.This is a
+            wider card with supporting text below as a natural lead-in to
+            additional content. This content is a little bit longer.
+          </p>
+          <h4 className="fw-bold text-primary">Technologies:</h4>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+
+          <p class="card-text">
+            <div className="btn btn-primary mt-2">View Details</div>
+          </p>
+        </div>
+      </div>
+      <div class="card mb-3 container p-5">
+        <img
+          className="p-3 w-50 mx-auto img-fluid"
+          src={assi10}
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-primary">Optic Care</h5>
+          <p class="card-text ">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.This is a
+            wider card with supporting text below as a natural lead-in to
+            additional content. This content is a little bit longer.
+          </p>
+          <h4 className="fw-bold text-primary">Technologies:</h4>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm m-1">
+            Secondary
+          </button>
+          <p class="card-text">
+            <div className="btn btn-primary mt-2">View Details</div>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
